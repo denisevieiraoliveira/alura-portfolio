@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+:root {
+    --cor-primaria: #f0f0f0;
+    --cor-secundaria: #1f1f1f;
+    --cor-terciaria: #ad96ff;
+    --cor-hover: #ede8ff;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Poppins', sans-serif;
+    /*--fonte-secundaria: 'Montserrat', sans-serif;*/
+}
+
+@media (max-width: 1200px) {
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .cabecalho {
+        padding: 10%;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+    }
+}
